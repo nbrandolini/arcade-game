@@ -45,7 +45,7 @@ Enemy.prototype.update = function(dt) {
     }
     this.checkCollisions();
 };
-// reset property for enemy to reset speed when game is reset
+// reset speed when game is reset
 
 Enemy.prototype.reset = function() {
     this.speed = Math.floor(Math.random() * 200 + 100);
