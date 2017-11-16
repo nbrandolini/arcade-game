@@ -1,7 +1,7 @@
 
 # Arcade Game Project
 
-This project involved using Object Oriented Javascript and HTML5 canvas to create a simple frogger game. The game engine and artwork were provided by Udacity, and app.js contains the code I wrote after many, many hours :dizzy_face:.
+This project involved using Object Oriented Javascript and HTML5 canvas to create a simple frogger game (not so simple for me). The game engine and all artwork were provided by Udacity, and app.js contains the code I wrote after many, many sleepless  hours :dizzy_face:.
 
 
 
@@ -16,5 +16,6 @@ The controls for the game are simple: just use your up, down, left, and right ar
 
 
 ####  Sources used:
-Udacity discussion forums
-MDN JavaScript and other sources
+*Udacity discussion forums * MDN JavaScript * and other sources
+
+
