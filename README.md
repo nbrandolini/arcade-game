@@ -1,5 +1,5 @@
 
-# Arcade Game Project:  please enjoy game here https://nbrandolini.github.io/arcade-game/
+# Arcade Game Project  please enjoy game here https://nbrandolini.github.io/arcade-game/
 
 This project involved using Object Oriented Javascript and HTML5 canvas to create a simple frogger game (not so simple for me). The game engine and all artwork were provided by Udacity, and app.js contains the code I wrote after many, many sleepless  hours :dizzy_face:.
 
@@ -18,4 +18,5 @@ The controls for the game are simple: just use your up, down, left, and right ar
 ####  Sources used:
 *Udacity discussion forums * MDN JavaScript * and other sources
 
+please enjoy game here https://nbrandolini.github.io/arcade-game/
 
