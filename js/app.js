@@ -1,6 +1,8 @@
 // Enemies our player must avoid
+'use strict';
+
 var Enemy = function(x, y) {
-    'use strict';
+
 
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
@@ -45,7 +47,7 @@ Enemy.prototype.update = function(dt) {
     }
     this.checkCollisions();
 };
-// reset speed when game is reset
+// reset property for enemy to reset speed when game is reset
 
 Enemy.prototype.reset = function() {
     this.speed = Math.floor(Math.random() * 200 + 100);
@@ -69,11 +71,12 @@ var Player = function() {
     this.height = 50;
 };
 
+// sets limits for player to remain on screen
 Player.prototype.update = function() {
     if (this.x < 0) {
         this.x = 0;
-    } else if (this.x > 620) {
-        this.x = 620;
+    } else if (this.x > 400) {
+        this.x = 400;
     } else if (this.y < 0) {
         this.y = 0;
     } else if (this.y > 435) {
@@ -85,7 +88,7 @@ Player.prototype.update = function() {
     }
 
 };
-//message to appear when player crosses to water
+
 Player.prototype.win = function() {
     if (this.y < 10) {
         this.x = 202;
